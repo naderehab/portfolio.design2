@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navagation bar*/
+nav {
+background-color:#76b6b6 ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*First Section*/
+.first{
+ background-image: url(images/pexels-burst-374074.jpg);
+ background-color: rgba(0, 0, 0, 0.6);
+ background-blend-mode: color-burn;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+}
+h1,h3,h4{
+    color: #76b6b6;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h4::after{
+    content: "";
+    animation-name: Word;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5;
+}
+@keyframes Word {
+    0%{content:  "F";}
+    5%{content:  "Fr";}
+    10%{content: "Fro";}
+    15%{content: "Fron";}
+    20%{content: "Front";}
+    25%{content: "Front-";}
+    30%{content: "Front-E";}
+    35%{content: "Front-En";}
+    40%{content: "Front-En";}
+    45%{content: "Front-End";}
+    50%{content: "Front-End-";}
+    55%{content: "Front-End-D";}
+    60%{content: "Front-End-De";}
+    65%{content: "Front-End-Dev";}
+    70%{content: "Front-End-Devl";}
+    75%{content: "Front-End-Devlo";}
+    80%{content: "Front-End-Devlop";}
+    85%{content: "Front-End-Devlope";}
+    90%{content: "Front-End-Devloper";}
+}
+
+/*second section*/
+.second, .fifth{
+    background-color: #fff0ce;
+}
+
+/* third section*/
+.third{
+    background-color: #c8cacd;
+}
